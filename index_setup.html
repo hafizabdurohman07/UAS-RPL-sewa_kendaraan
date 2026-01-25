@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Setup Aplikasi Sewa Kendaraan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+        }
+        
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .step {
+            margin-bottom: 25px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+        }
+        
+        .step h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        
+        .step p {
+            margin: 5px 0;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .code {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 13px;
+            margin-top: 10px;
+            color: #d63384;
+        }
+        
+        .button-group {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background: #5a6268;
+            transform: translateY(-2px);
+        }
+        
+        .success {
+            background: #d4edda;
+            border-left-color: #28a745 !important;
+            color: #155724;
+        }
+        
+        .info {
+            background: #d1ecf1;
+            border-left-color: #17a2b8 !important;
+            color: #0c5460;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>⚙️ Setup Aplikasi Sewa Kendaraan</h1>
+    
+    <div class="step info">
+        <h3>📋 Panduan Setup</h3>
+        <p>Ikuti langkah-langkah di bawah ini untuk mengatur aplikasi Sewa Kendaraan Anda.</p>
+    </div>
+    
+    <div class="step">
+        <h3>1️⃣ Pastikan XAMPP Running</h3>
+        <p>Buka XAMPP Control Panel dan pastikan:</p>
+        <p>✓ Apache running (port 80)</p>
+        <p>✓ MySQL running (port 3306)</p>
+    </div>
+    
+    <div class="step">
+        <h3>2️⃣ Verifikasi Koneksi Database</h3>
+        <p>Default connection settings:</p>
+        <div class="code">
+            Host: localhost<br>
+            User: root<br>
+            Password: (kosong)<br>
+            Database: sewa_kendaraan
+        </div>
+    </div>
+    
+    <div class="step success">
+        <h3>3️⃣ Setup Otomatis</h3>
+        <p>Klik tombol di bawah untuk membuat database dan mengimpor data contoh secara otomatis.</p>
+    </div>
+    
+    <div class="button-group">
+        <a href="setup.php" class="btn btn-primary">▶ Setup Database & Impor Data</a>
+        <a href="login.php" class="btn btn-secondary">← Kembali ke Login</a>
+    </div>
+    
+    <div class="step">
+        <h3>🔐 Login Credentials</h3>
+        <p><strong>Username:</strong> admin</p>
+        <p><strong>Password:</strong> admin123</p>
+    </div>
+    
+    <div class="step">
+        <h3>❓ Troubleshooting</h3>
+        <p><strong>Error: Koneksi database gagal?</strong></p>
+        <p>Solusi:</p>
+        <p>1. Pastikan MySQL sudah berjalan</p>
+        <p>2. Periksa username/password di config/database.php</p>
+        <p>3. Buka phpMyAdmin untuk verifikasi</p>
+    </div>
+</div>
+
+</body>
+</html>
