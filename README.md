@@ -1,8 +1,3 @@
 ﻿# sewa-kendaraan
 
-<img width="1919" height="885" alt="image" src="https://github.com/user-attachments/assets/61ec1816-1c44-42b7-a70b-620afcea3b22" />
-<img width="1915" height="884" alt="image" src="https://github.com/user-attachments/assets/df9eb594-faf4-4acd-811c-8fae785997ce" />
-<img width="1919" height="885" alt="image" src="https://github.com/user-attachments/assets/2389c4d3-9b4d-431d-9b7b-332bd78bd1b0" />
-<img width="1914" height="886" alt="image" src="https://github.com/user-attachments/assets/fc60a909-6bda-46b7-9c5b-051a2e774fae" />
-<img width="1915" height="885" alt="image" src="https://github.com/user-attachments/assets/255fc5ae-f7e0-4fa0-941d-4f43a2f9c6fc" />
-<img width="1890" height="877" alt="image" src="https://github.com/user-attachments/assets/e416d466-8b6e-46ec-88fc-7d184f9540d3" />
+![WhatsApp Image 2026-02-04 at 14 05 23](https://github.com/user-attachments/assets/a8b7c9e8-2568-430b-a4b6-ab56457d1442)
